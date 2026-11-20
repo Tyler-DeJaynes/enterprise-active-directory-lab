@@ -47,6 +47,8 @@ For Windows 11, configure virtual TPM 2.0, EFI and Secure Boot as needed to meet
 
 ## Phase 3 — Install and configure DC01
 
+**Progress update (user-reported):** Windows Server installation currently in progress on DC01. Installation completion, selected edition, and first login have not been verified. No installation screenshots recorded yet.
+
 1. Create the DC01 virtual machine with the Windows Server ISO, 3 GB RAM, 2 vCPUs, and 60 GB dynamically allocated virtual disk.
 2. Install **Desktop Experience** and create a private, strong local Administrator password.
 3. Rename the computer to `DC01` and restart.
