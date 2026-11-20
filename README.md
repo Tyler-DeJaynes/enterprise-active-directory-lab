@@ -34,7 +34,7 @@ Windows 11's VM must meet the installer requirements, including EFI and virtual 
 
 ## Milestone tracker
 
-- [ ] 1. Enable hardware virtualization and install VirtualBox
+- [x] 1. Enable hardware virtualization and install VirtualBox *(user-reported, 2026-11-19)*
 - [ ] 2. Download evaluation ISOs and create ADLAB-NAT network
 - [ ] 3. Build and install DC01
 - [ ] 4. Configure static IP, AD DS, DNS, and forest `corp.example.test`
