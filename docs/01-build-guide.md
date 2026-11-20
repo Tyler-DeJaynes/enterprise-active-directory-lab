@@ -8,17 +8,17 @@
 - **Host OS:** To be recorded
 - **RAM:** 16 GB DDR4-3200
 - **Free storage:** To be recorded
-- **Virtualization:** Not yet verified
+- **Virtualization:** Enabled (user-reported in Windows Task Manager, 2026-11-19)
 
 1. Open **Task Manager → Performance → CPU** and confirm **Virtualization: Enabled**. If disabled, enable Intel VT-x or AMD SVM in BIOS/UEFI.
 2. Download [Oracle VirtualBox](https://www.virtualbox.org/wiki/Downloads) for Windows hosts and install it.
 3. Download the [Windows Server 2025 evaluation ISO](https://www.microsoft.com/en-us/evalcenter/download-windows-server-2025) and [Windows 11 Enterprise evaluation ISO](https://www.microsoft.com/en-us/evalcenter/evaluate-windows-11-enterprise).
 4. Aim for at least 100 GB of free host disk space. Do not upload the ISO or VM disks to GitHub.
 
-**Checkpoint:** VirtualBox installed, required ISOs available, virtualization enabled.
+**Checkpoint:** VirtualBox is installed and the New VM wizard was opened (user-reported, 2026-11-19). Virtualization is enabled (user-reported). Evaluation ISO downloads and actual VM installation are not yet confirmed.
 
-**Outcome:** Not tested  
-**Evidence:** Add screenshot and description after successful installation.
+**Outcome:** VirtualBox launches and VM wizard accessible (user-reported); ISO availability and guest installation not tested.  
+**Evidence:** Screenshot not yet provided.
 
 ## Phase 2 — Shared VirtualBox NAT Network
 
