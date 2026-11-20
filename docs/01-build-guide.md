@@ -41,7 +41,9 @@ Attach **both** VM network adapters to **NAT Network** named `ADLAB-NAT` (not th
 
 For Windows 11, configure virtual TPM 2.0, EFI and Secure Boot as needed to meet official requirements. Do not bypass the OS hardware requirements.
 
-**Outcome:** Not tested
+**Progress (2026-11-19, user-reported):** `ADLAB-NAT` was created using VirtualBox CLI and is now selected/connected for the DC01 VM. The user reports connection; gateway, DHCP configuration, and guest network tests have **not** yet been independently checked. Windows Server installation is the next step.
+
+**Outcome:** Virtual network attached to DC01 (user report); IP/DNS connectivity not tested.
 
 ## Phase 3 — Install and configure DC01
 
