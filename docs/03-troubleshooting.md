@@ -23,8 +23,9 @@
 **Status:** Open — fix and verification pending  
 **Scenario:** Preparing Windows host for VirtualBox-based Active Directory lab.  
 **Observed symptom:** User reported that virtualization is disabled. No firmware settings or screenshot have been verified yet.  
-**Likely cause to investigate:** CPU hardware virtualization is disabled in the system firmware (BIOS/UEFI). This is a hypothesis, not a confirmed root cause.  
-**Recommended action:** Enter UEFI settings via Windows advanced startup, locate SVM Mode (AMD) or Intel Virtualization Technology / VT-x / VMX (Intel), enable it, and save changes without modifying unrelated firmware settings.  
+**Hardware identified:** AMD Ryzen 5 5600GT with Radeon Graphics (reported by user).  
+**Likely cause to investigate:** CPU hardware virtualization / SVM Mode is disabled in the system firmware (BIOS/UEFI). This is a hypothesis, not a confirmed root cause.  
+**Recommended action:** Enter UEFI settings via Windows advanced startup, locate AMD **SVM Mode** (exact path depends on motherboard manufacturer), enable it, and save changes without modifying unrelated firmware settings.  
 **Verification pending:** Reopen Windows Task Manager → Performance → CPU and confirm that **Virtualization: Enabled** appears; test that VirtualBox can start a 64-bit guest.  
 **Evidence:** Not yet provided.  
 **Resolution:** Pending; do not mark complete until independently tested.
